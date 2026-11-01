@@ -1,0 +1,12 @@
+// sample program for the scanner / two-buffer programs
+int main() {
+    int count = 10;
+    float rate = 2.5;
+    /* multi-line
+       comment */
+    while (count >= 0) {
+        count = count - 1;
+        if (count == 5) print("half");
+    }
+    return count != 0;
+}
